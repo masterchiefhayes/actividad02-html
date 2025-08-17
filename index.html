@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+
+  <!-- boostrap -->
+  <link href="bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light" style="font-family: Arial, sans-serif;">
+
+  <!-- barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand text-warning" href="index.html">Desarrollo Web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="estudiantes.html">Estudiantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="administradores.html">Administradores</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+
+        <!-- título en negrita -->
+        <h1 class="mb-4 text-dark fw-bold">Bienvenidos</h1>
+        
+        <!-- contenido de la página -->
+        <p><strong>Al trabajar la página tendremos la siguiente información:</strong></p>
+        <ol>
+          <li>Al presionar en Home iremos hacia la página principal</li>
+          <li>Al presionar en Estudiantes o Administradores, vamos a mostrar una tabla con los listados correspondientes</li>
+          <li>Al presionar en Acerca de, se mostrará la información sobre esta tarea</li>
+        </ol>
+      </div>
+
+      <!-- imagen de Dustin Poirier -->
+      <div class="col-md-4 text-center">
+        <img src="img.jpeg" alt="Imagen principal" 
+             class="img-fluid rounded shadow border border-5 border-info">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS local -->
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

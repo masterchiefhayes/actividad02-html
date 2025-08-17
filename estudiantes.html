@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudiantes</title>
+
+  <!-- bootstrap -->
+  <link href="bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light" style="font-family: Arial, sans-serif;">
+
+  <!-- barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand text-warning" href="index.html">Desarrollo Web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="estudiantes.html">Estudiantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="administradores.html">Administradores</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="mb-4 text-dark fw-bold">Listado de Estudiantes</h1>
+    
+    <table class="table table-bordered table-striped table-hover">
+      <thead class="table-light">
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Carrera</th>
+        </tr>
+      </thead>
+
+<tbody>
+        <tr>            
+          <td>Julio Estrada, Theo</td>
+          <td>22</td>
+          <td>Ingeniería en Sistemas</td>
+        </tr>
+        <tr>
+          <td>Rodrigo Flores</td>
+          <td>22</td>
+          <td>Odontología</td>
+        </tr>
+        <tr>
+          <td>Mercy Córdova</td>
+          <td>20</td>
+          <td>Psicología</td>
+        </tr>
+        <tr>
+          <td>Pablo Orozco</td>
+          <td>25</td>
+          <td>Derecho</td>
+        </tr>
+        <tr>
+          <td>Javier Mayen</td>
+          <td>23</td>
+          <td>Administración de Empresas</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS local -->
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
